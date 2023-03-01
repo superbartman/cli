@@ -1,0 +1,21 @@
+{
+  "name": "bartman-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "bartman-cli": "bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "cross-spawn": "^7.0.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
