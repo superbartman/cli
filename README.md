@@ -12,9 +12,9 @@ pnpm add -g bartman-cli
 
 ## Create Project Template
 
-name: project name（required）
-type: project template type（default [react-chrome-extensions](https://github.com/superbartman/react-chrome-extensions)）
--f: force delete the exist folder when create
+- name: project name（required）
+- type: project template type（default [react-chrome-extensions](https://github.com/superbartman/react-chrome-extensions)）
+- -f: force delete the exist folder when create
 
 ```js
 bart-test create [name] [type]
